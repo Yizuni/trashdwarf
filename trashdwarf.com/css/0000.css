@@ -1,0 +1,138 @@
+header {
+  
+  
+}
+
+/********* Text Manipulation ************/
+
+h1, h2, h3, p {
+  text-align: center;
+}
+
+h1 {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  line-height: 2em;
+  color: #555;
+  text-shadow: 1px 2px 3px rgba(200, 200, 200, 1);
+}
+
+h2 {
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 2em;
+  color: #555;
+}
+
+h3 {
+  color: white;
+  font-size: 2em;
+  line-height: 2em;
+  font-weight: 400i;
+}
+
+/*************** Element Manipulations ************/
+
+li {
+  list-style: square;
+  font-family: "Open Sans", sans-serif;
+  line-height: 2em;
+  width: 60%;
+  margin: 0 auto;
+}
+
+a {
+ color: #b8abcc;
+ text-decoration: underline;
+}
+
+div {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.block {
+  margin: 40px auto;
+}
+
+.button {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 1em;
+  background-color: #eee;
+  text-align: center;
+ }
+
+.employ {
+  text-align: center;
+  margin: 2em auto;
+}
+
+/****** Nav Bar *******/
+
+/*
+.nav {
+  overflow: hidden;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+*/
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  border-bottom: 3px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 auto;
+  display: inline-block;
+  width: 120px
+}
+.nav a:hover {
+  color: #000;
+  cursor: default;
+}
+/***************** Media Queries ****************/
+
+@media screen and (max-width: 750px) {
+  div {
+   width: 100%; 
+  }
+  
+  li {
+    width: 80%;
+  }
+  
+  .nav {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .nav a {
+    
+  }
+}

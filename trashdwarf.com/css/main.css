@@ -1,0 +1,99 @@
+/********* Text Manipulation ************/
+
+h1, h2, h3, p {
+  text-align: center
+}
+
+h1 {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 5em;
+  line-height: 2em;
+  color: white;
+  text-shadow: 1px 2px 3px rgba(200, 200, 200, 1);
+}
+
+h2 {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 3em;
+  line-height: 2em;
+  color: white;
+}
+
+h3 {
+  color: white;
+  font-size: 2em;
+  line-height: 2em;
+  font-weight: 400i;
+}
+
+
+/********* Main Content ************/
+
+.strip {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+} 
+
+.lookatme1 {
+  background: 
+    linear-gradient(#fff, transparent 30%), 
+    linear-gradient(360deg, #000, transparent 70%), 
+    url('../img/stockphotos/smpier-dave-lastovskiy.jpg') no-repeat bottom center;
+  background-size: cover;
+}
+
+.lookatme2 {
+  background: 
+    radial-gradient(circle, #000, transparent 100%), 
+    url('../img/stockphotos/grad-faustin-tuyambaze.jpg') no-repeat bottom center;
+  background-size: cover;  
+}
+
+.lookatme2 h1, .lookatme2 h2 {
+  color: #fff;
+}
+
+.lookatme3 {
+  background: 
+    linear-gradient(#fff, transparent 30%), 
+    linear-gradient(360deg, #ddd, transparent 70%), 
+    url('../img/stockphotos/island-ales-krivec.jpg') no-repeat bottom center;
+  background-size: cover;  
+  height: auto;
+}
+
+.biggercontainer {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.container {
+  width: 50%;
+  float: left;
+}
+
+
+.lookatme4 {
+  background: 
+    linear-gradient(#000, transparent 70%), 
+    url('../img/stockphotos/louvre-stacy-wyss.jpg') no-repeat bottom center;
+  background-size: cover;  
+}
+
+.aboutme {
+  background: 
+    linear-gradient(#000, transparent 70%), 
+    url('../img/stockphotos/road-kimon-maritz.jpg') no-repeat bottom center;
+  background-size: cover;  
+}
+/********* Footer ******************/
+
